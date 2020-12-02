@@ -1,0 +1,58 @@
+.head_nav {
+  color: rgb(153, 153, 153);
+  text-decoration: none;
+}
+
+.head_nav:hover {
+  text-decoration: none;
+  color: rgb(103, 241, 200);
+}
+
+.text-responsive {
+  font-size: 1rem;
+} /*1rem = 16px*/
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  .text-responsive {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .text-responsive {
+    font-size: 2rem;
+  } /*1rem = 16px*/
+}
+.logo {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .text-responsive {
+    font-size: 1rem;
+  } /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .text-responsive {
+    font-size: 1.5rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  /*1rem = 16px*/
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width
+@media (min-width: 950px) and (max-width:1100px) { 
+  h1 {font-size:2.75rem;color:red;} 
+} */
